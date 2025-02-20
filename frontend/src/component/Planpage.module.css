@@ -1,0 +1,194 @@
+.wrapper {
+    background-image: url('https://images.unsplash.com/photo-1597200381847-30ec200eeb9a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Blurred Travel Scene */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .headerImage {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .headerImage img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .introText {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .introText p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .checkpoints {
+    background: rgba(249, 249, 249, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .checkpoint {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .checkpoint span {
+    background: rgb(218, 134, 148);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .category {
+    background: rgba(249, 249, 249, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .itemCount {
+    background: #76c7c0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .progressBar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background: #76c7c0;
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  
+  .input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background: #76c7c0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #5aa6a0;
+  }
+  
+  .clearButton {
+    background: #ff6b6b;
+    margin-left: 10px;
+  }
+  
+  .clearButton:hover {
+    background: #ff4c4c;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .listItem {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .deleteButton {
+    background: #ff6b6b;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background: #ff4c4c;
+  } 
+  

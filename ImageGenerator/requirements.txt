@@ -1,0 +1,7 @@
+streamlit
+diffusers
+accelerate
+transformers
+torch
+huggingface_hub
+dotenv

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+langchain
+langserve
+langchain-google-genai
+python-dotenv
+sse_starlette
+langchain_groq
+flask
+flask_cors
+nltk
