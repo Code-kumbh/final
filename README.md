@@ -75,6 +75,11 @@ streamlit run app.py
 
 
 
+![redme1](https://github.com/user-attachments/assets/162e46a2-9249-46c9-a2de-b1755651ef74)
+
+
+
+
 
 ## 📌 Conclusion
 Aasan Safar is a one-stop AI-powered travel assistant that goes beyond traditional itinerary planning. By combining Generative AI, automation, and fintech solutions, we eliminate the common pain points of trip planning and create an intuitive, future-ready platform.
