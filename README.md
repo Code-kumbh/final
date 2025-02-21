@@ -79,6 +79,16 @@ streamlit run app.py
 
 
 
+![redme2](https://github.com/user-attachments/assets/f5eef897-9d8a-4b2b-8c13-1fd4ae680b58)
+
+
+![redme3](https://github.com/user-attachments/assets/ea9a0329-f98c-4cb4-90ee-f6985fd0338c)
+
+
+![redme4](https://github.com/user-attachments/assets/d37097a9-acef-40a2-9cba-201a813fbb31)
+
+![redme5](https://github.com/user-attachments/assets/b983b5f8-fd00-44ad-9194-1dbacdf62b0c)
+
 
 
 ## 📌 Conclusion
